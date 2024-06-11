@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+.logo {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    gap: 5%;
+}
+.log-1 {
+    width: 15%;
+    height: 100%;
+}
+.log-2 {
+    width: 15%;
+}
+.log-2-1 {
+    height: 47.5%;
+}
+.log-2-2 {
+    margin-top: 40%;
+    height: 47.5%;
+}
+.log-3 {
+    width: 15%;
+    height: 100%;
+}
+.log-4 {
+    width: 15%;
+    height: 100%;
+}
+.log-4-1 {
+    height: 47.5%;
+}
+.log-4-2 {
+    margin-top: 300%;
+    height: 15%;
+}
+.log-5 {
+    width: 15%;
+    height: 100%;
+}
+.log-6 {
+    width: 15%;
+    height: 100%;
+}
+.log-6-1 {
+    height: 15%;
+}
+.log-6-2 {
+    margin-top: 40%;
+    height: 15%;
+}
+.log-6-3 {
+    margin-top: 40%;
+    height: 60%;
+}
+.logo .str-blue, .logo .str-red,  .logo .str-green, .logo .str-yellow{
+    background-color: #d4d4d4;
+    transition: background-color 0.5s ease;
+}
+.logo:hover .str-blue {
+    background-color: #3D405B;
+}
+.logo:hover .str-red {
+    background-color: #E07A5F;
+}
+.logo:hover .str-green {
+    background-color: #81B29A;
+}
+.logo:hover .str-yellow {
+    background-color: #F2CC8F;
+}
